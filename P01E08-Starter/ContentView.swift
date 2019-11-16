@@ -33,6 +33,8 @@ struct ContentView : View {
     ZStack {
       VStack {
         Image("Cat")
+          .resizable()
+          .frame(width: 300, height: 300, alignment: .center)
         
         Text("😻 Meow! 😻")
           .font(Font.system(.largeTitle, design: .monospaced))
