@@ -42,6 +42,7 @@ struct ContentView : View {
           .fontWeight(.bold)
           .foregroundColor(.white)
           .shadow(color: Color.black, radius: 10, x: 10, y: 10)
+        .rotationEffect(Angle(degrees: -10))
         
       }
     }
