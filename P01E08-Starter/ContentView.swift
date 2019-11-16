@@ -43,8 +43,8 @@ struct ContentView : View {
           .foregroundColor(.white)
           .shadow(color: Color.black, radius: 10, x: 10, y: 10)
         .rotationEffect(Angle(degrees: -10))
-        
       }
+      Spacer().layoutPriority(1)
     }
     .background(Color.rayWenderlichGreen)
       .edgesIgnoringSafeArea(.all)
